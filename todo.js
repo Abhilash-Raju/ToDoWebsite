@@ -33,7 +33,7 @@ $(document).ready(function(){
 				}
 			else if (len=5){
 				$("#general i .counter").text(' '+len+'');
-				$('#complete').text('5 Tasks have been Completed for Today.');
+				$('#complete').text('5 tasks have been Completed for Today.');
 				alert('Congrats. 5 Tasks have been Successfully Completed');
 				window.setTimeout( ()=> {
 					window.location.reload();
